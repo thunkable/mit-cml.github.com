@@ -18,7 +18,7 @@
 <link rel="shortlink" href="../node/425.html" />
 <link rel="canonical" href="share.html" />
 <meta name="Generator" content="Drupal 7 (http://drupal.org)" />
-  <title>Sharing and Packaging Apps | Explore Thunkable</title>
+  <title>Migrating from MIT App Inventor | Explore Thunkable</title>
   <style>
 @import url("../modules/system/system.base0021.css?o1obu1");
 @import url("../modules/system/system.menus0021.css?o1obu1");
@@ -131,11 +131,11 @@
 
       
               <h1 class="article-title">
-                      Sharing and Packaging Apps                  </h1>
+                      Migrating from MIT App Inventor                  </h1>
       
       
     </header>
-    <span property="dc:title" content="Sharing and Packaging Apps" class="rdf-meta element-hidden"></span>
+    <span property="dc:title" content="Migrating from MIT App Inventor" class="rdf-meta element-hidden"></span>
   <div class="article-content">
   <div class="field field-name-body field-type-text-with-summary field-label-hidden view-mode-full"><div class="field-items"><div class="field-item even" property="content:encoded"><style>
 <!--/*--><![CDATA[/* ><!--*/
@@ -145,21 +145,71 @@ font:strong; font-style:italic; font-weight:bold;
 }
 
 /*--><!]]>*/
-</style><h3>You can share your app in an <em>executable</em> form (.apk) that can be installed on a device, or in <em>source</em> code form (.aia) that can be loaded into Thunkable and changed. You can also distribute your app on the <a href="google-play.html">Google Play Store</a></h3>
-<h3 class="”ai-header”">Sharing your app so that others can change it (.aia file)</h3>
-<p>Make sure you are viewing the list of all of your apps (if you are not, choose Apps | My Apps).  Select the project you wish to share by checking the box next to it.  Choose <strong>Apps | Download selected app project (.aia) to my computer</strong> to export the source code (blocks) for your app. The source code is downloaded in a .aia file. </p>
-<div style="text-align:center;"><img src="../sites/all/files/SetupAI2/sharing_aias.png" /></div>
-<p>If you send it to a friend, they can open it with <strong>Apps | Upload app project (.aia) from my computer</strong>.</p>
-<div style="text-align:center;"><img src="../sites/all/files/SetupAI2/sharing_aias2.png" /></div>
-<h3 class="”ai-header”">Sharing your app for others to install on their phone/tablet (.apk file)</h3>
-<p>Package the app (.apk file) by going to the "Export" menu on the Thunkable toolbar.</p>
-<div style="text-align:center;"><img src="../sites/all/files/SetupAI2/Build_Dropdown.png" /></div>
-<p>Select "App (save .apk to my computer)." A pop-up box should alert you that your download has begun. Note: The other option (provide QR code for .apk) produces a scannable QR code that will download the app for two hours. You can share this code with others, but they have to use it within 2 hours of your generating it.</p>
-<div style="text-align:center;"><img src="../sites/all/files/SetupAI2/Build_Popup.png" /></div>
-<p>Once the build completes, you can email the app (".apk" file) to your friends who can install it by opening the email from their phone. If you want to distribute it more widely, you can upload it to a website that both you and your friend can access. You can also distribute your app on the <a href="google-play.html">Google Play Store</a>.</p>
-<p></p><p>NOTE: Anyone installing your app (which is an ".apk" file) directly, instead of from the Play Store, will need to change the setting on their phone to allow installation of non-market applications:</p>
-<p>To find this setting on versions of Android prior to 4.0, go to "Settings &gt; Applications" and then check the box next to "Unknown Sources". For devices running Android 4.0 or above, go to "Settings &gt; Security" or "Settings &gt; Security &amp; Screen Lock" and then check the box next to "Unknown Sources" and confirm your choice.</p>
-<p>Note: The source code (.aia) files are not executable Android programs -- those are .apk files. The source code is also not Java SDK code -- it can only be loaded into Thunkable or MIT App Inventor.</p>
+</style>
+<h4>If you built an app on MIT App Inventor and want to get all of the benifits of Thunkable, you can easily move your app over.</h4>
+<h4>Just export your .aia from MIT App Inventor and then upload your .aia to Thunkable.</h4>
+<br />
+<h3><strong>To export an app project from MIT App Inventor:</strong></h3>
+<div id="text_instructions" style="text-align:left;width:48%;height:48%;float:left;display:table-cell;vertical-align:top;padding-right:10px;">
+<p>Step 1:
+Go to <a href="ai2.appinventor.mit.edu">MIT App Inventor</a> and sign in to your account.</p>
+<p>Step 2:
+Select the project you would like to download</p>
+<p>Step 3:
+Click on the “Projects” tab on the top left of your screen.</p>
+<p>Step 4:
+Select “Export selected project (.aia) to my computer.”</p>
+<p>The code for the app is now downloaded to your computer. It is a file that is titled &lt;your_app_name&gt;.aia. Note: rename the file to rename the project.</p>
+</div>
+<div id="image_instructions" style="text-align:center;width:48%;height:48%;float:left;display:table-cell;vertical-align:top;padding-left:10px;">
+<div style="text-align:center;"><img src="ai-thunkable-images/download_from_ai.png" /></div>
+</div>
+<br />
+<h3><strong>Uploading an app project to Thunkable:</strong></h3>
+<div id="text_instructions" style="text-align:left;width:48%;height:48%;float:left;display:table-cell;vertical-align:top;padding-right:10px;">
+<p>Step 1:
+Go to <a href="app.thunkable.com">app.thunkable.com</a> and sign in to your account.</p>
+<p>Step 2:
+Click on the “Apps” tab on the top left of your screen.</p>
+<p>Step 3:
+Click “Upload app project (.aia) from my computer.”</p>
+<p>Step 4:
+Select the project that you downloaded from MIT App Inventor.</p>
+</div>
+<div id="image_instructions" style="text-align:center;width:48%;height:48%;float:left;display:table-cell;vertical-align:top;padding-left:10px;">
+<div style="text-align:center;"><img src="ai-thunkable-images/thunkable_upload.png" /></div></div>
+<br />
+<h2>Advanced:</h2>
+<p>If you would like to update an existing Google Play app, you will also need to transfer over your keystore, which is an identifier that tells Google Play who your are (so that someone can't upload an app pretending to be you).</p>
+<h3><strong>Exporting your keystore from MIT App Inventor:</strong></h3>
+<div id="text_instructions" style="text-align:left;width:48%;height:48%;float:left;display:table-cell;vertical-align:top;padding-right:10px;">
+<p>Step 1:
+Go to <a href="ai2.appinventor.mit.edu">MIT App Inventor</a> and sign in to your account.</p>
+<p>Step 2:
+Click on the “Projects” tab on the top left of your screen.</p>
+<p>Step 3:
+Click “Export Keystore.”</p>
+</div>
+<div id="image_instructions" style="text-align:center;width:48%;height:48%;float:left;display:table-cell;vertical-align:top;padding-left:10px;">
+<div style="text-align:center;"><img src="ai-thunkable-images/export_keystore.png" /></div></div>
+<br />
+<h3><strong>Importing your keystore to Thunkable:</strong></h3>
+<div id="text_instructions" style="text-align:left;width:48%;height:48%;float:left;display:table-cell;vertical-align:top;padding-right:10px;">
+<p>Step 1:
+Go to <a href="app.thunkable.com">app.thunkable.com</a> and sign in to your account.</p>
+<p>Step 2:
+Click on the Apps tab on the top left of your screen.</p>
+<p>Step 3:
+Click “Import Keystore.”</p>
+<p>Step 4:
+Select the android.keystore file that you downloaded from MIT App Inventor.</p>
+</div>
+<div id="image_instructions" style="text-align:center;width:48%;height:48%;float:left;display:table-cell;vertical-align:top;padding-left:10px;">
+<div style="text-align:center;"><img src="ai-thunkable-images/import_keystore.png" /></div></div>
+<br />
+
+
+
 </div></div></div>  </div>
 
   
